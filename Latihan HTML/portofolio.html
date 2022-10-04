@@ -20,11 +20,61 @@
             margin-left: 20px;
             margin-right: 20px;
         }
+        .Konten {
+            color: blue;
+        }
+        .Biru {
+            color: blue;
+        }
+        body {
+            color: blue;
+            background-color: beige;
+            background-repeat: no-repeat;
+        }
+        .nav {
+            background-color: black;
+            padding-left: 10px;
+        }
+        .atas {
+            list-style-type: none;
+            padding-left: 10px;
+        }
+        .menu {
+            border: 1px solid beige;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding-top: 10px;
+            display: inline-block;
+            width: 200px;
+            height: 35px;
+            text-align: center;
+        }
+        a {
+            color: beige;
+            text-decoration: none;
+            text-align: center;
+        }
+        .menu:hover {
+            background-color: aqua;
+            cursor: pointer;
+            transition: 0,5s;
+        }
     </style>
+    <div class="nav">
+        <ul class="atas">
+            <li class="menu"><a href="">Nama</a></li>
+            <li class="menu"><a href="">Foto</a></li>
+            <li class="menu"><a href="">Pengalaman Organisasi</a></li>
+            <li class="menu"><a href="">Pengalaman Magang</a></li>
+            <li class="menu"><a href="">Tabel</a></li>
+        </ul>
+    </div>
+<body>
 </head>
-<h1>Siti Zahra Mauria</h1>
+<h1 class="Biru">Siti Zahra Mauria</h1>
 <img src="FOTO RIRI.jpeg" alt="Riri" weight="200" height="300">
 <body class="indent">
+    <div class="Konten">
     <h2>Pengalaman Organisasi</h2>
         <li>Himpunan Prodi Divisi Kominfo</li>
         <li>IMADA JAYA Divisi Litbang</li>
@@ -34,7 +84,8 @@
         <li>DILo Kemenpora</li>
         <li>Ruang Inovasi</li>
         <li>PT. Indonusa Putra Mandiri</li>
-        <h1>Tabel</h1>
+    </div>
+        <h1 class="Biru">Tabel</h1>
     <form>
         <p>Nama:</p>
         <input type="text" name="Nama">
